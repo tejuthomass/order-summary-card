@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+:root {
+  box-sizing: border-box;
+
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+
+  --shade-100: hsl(225, 100%, 98%);
+  --shade-200: hsl(225, 100%, 94%);
+  --shade-300: hsl(224, 23%, 55%);
+  --shade-400: hsl(223, 47%, 23%);
+
+  --clr-blue: hsl(245, 75%, 52%);
+  --clr-hover: hsl(245, 83%, 68%);
+}
+
+body {
+  margin: 0;
+}
