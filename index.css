@@ -166,4 +166,23 @@ body {
     line-height: 1.3125em;
     letter-spacing: 0.01em;
   }
+
+  .summary>a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-hover);
+  }
+
+  .btn:hover {
+    cursor: pointer;
+  }
+
+  .btn--primary:hover {
+    background-color: var(--clr-hover);
+  }
+
+  .btn--secondary:hover {
+    color: var(--shade-400);
+  }
 }
+
